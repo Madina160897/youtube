@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "menu content";
+    grid-template-rows: "1ft 3ft";
+}
